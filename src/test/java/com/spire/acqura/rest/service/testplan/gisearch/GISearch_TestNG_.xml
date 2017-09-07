@@ -1,0 +1,24 @@
+<suite name="GI-Services">
+
+	<parameter name="genericServiceHost" value="192.168.2.198" />
+	<parameter name="genericServicePort" value="9280" />
+
+	<parameter name="userId" value="admin@autogi.com" />
+	<parameter name="password" value="test@123" />
+
+	<parameter name="userServiceHost" value="192.168.2.91" />
+	<parameter name="userServicePort" value="8083" />
+
+	<test name="Search Functionalities">
+		<parameter name="uri" value="/gi-services/api/search/" />
+		<packages>
+			<package name="com.spire.gi.services.search.test" />
+		</packages>
+	</test>
+
+
+
+
+</suite>               
+        
+   

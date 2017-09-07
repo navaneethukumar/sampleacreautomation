@@ -1,0 +1,2 @@
+SpireTestObject.testCaseId,SpireTestObject.TestTitle,SpireTestObject.description,request.searchRequest
+1,testSearchByAttribute,Search By Skill,"{"searchInput": {"searchQueryString": "skill:java","searchAttributeMap": {"skill":["java"]}}}"

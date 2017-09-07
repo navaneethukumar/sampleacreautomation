@@ -1,0 +1,2 @@
+SpireTestObject.testCaseId,SpireTestObject.TestTitle,SpireTestObject.description,candBean.skill,candBean.education,candBean.employer,candBean.project,candBean.socialData,candBean.locationGeo,candBean.crmData,candBean.social,candBean.crm,candBean.entityAddressBean
+1,testNewCandidatePersister,all the details,2,1,2,2,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE

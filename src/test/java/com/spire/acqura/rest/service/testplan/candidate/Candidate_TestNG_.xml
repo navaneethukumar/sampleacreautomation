@@ -1,0 +1,31 @@
+<suite name="Acqura-Services">
+
+	<listeners>
+		<listener class-name="com.spire.acqura.framework.util.SpireReport" />
+		<listener class-name="com.spire.acqura.framework.util.TestRetryListener" />
+		<listener class-name="com.spire.acqura.framework.util.SpireEmailReport" />
+		<listener class-name="com.spire.acqura.framework.util.TestListenerLog" />
+	</listeners>
+
+	<parameter name="serviceHost" value="192.168.2.75" />
+	<parameter name="servicePort" value="8084" />
+
+	<parameter name="userId" value="tester@logica.com" />
+	<parameter name="password" value="spire@123" />
+
+	<parameter name="userServiceHost" value="192.168.2.75" />
+	<parameter name="userServicePort" value="8083" />
+
+	<test name="Candidate Service">
+		<parameter name="uri" value="/talent-services/api/candidates" />
+		<packages>
+			<package name="com.spire.acqura.rest.service.testplan.candidate" />
+		</packages>
+	</test>
+
+
+
+
+</suite>               
+        
+   
